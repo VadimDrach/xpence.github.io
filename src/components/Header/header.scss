@@ -1,0 +1,66 @@
+@import "../../App.scss";
+
+.container {
+	max-width: 1150px;
+	margin: 0 auto;
+	padding: 0 15px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+
+
+// LOGO COMPONENT ==================================================
+.logo__link {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+
+// MEMU COMPONENT ==================================================
+.menu {
+
+	&__body {}
+
+	&__list {
+		display: flex;
+		gap: 40px;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	&__item {}
+
+	&__link {
+		font-size: 18px;
+		font-weight: 400;
+		font-family: $fontFamily;
+		color: $mainColor;
+		transition: all 0.3s ease 0s;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+// REQUEST BUTTON COMPONENT ==================================================
+
+.request__button {
+	display: inline-block;
+	padding: 15px 18px;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: $fontFamily;
+	color: $mainOrange;
+	border: 1px solid $mainOrange;
+	border-radius: 8px;
+	transition: all 0.3s ease 0s;
+
+	&:hover {
+		background-color: $mainOrange;
+		color: $mainWhite;
+	}
+}

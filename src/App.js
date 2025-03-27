@@ -1,7 +1,7 @@
 import './App.scss';
 import './style/null.scss';
 
-import Header from './components/Header/Header';
+import Header from './components/Header/Header.jsx';
 
 function App() {
   return (

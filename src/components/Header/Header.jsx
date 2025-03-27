@@ -4,14 +4,20 @@ import Logo from './Logo';
 import Menu from './Menu';
 import Button from './Button';
 
+import './header.scss';
+
+
 function Header() {
   return (
 	  <header className='header'>
-		  <Logo />
+		  <div className='container'>
+				<Logo />
 
-		  <Menu />
+				<Menu />
 
-		  <Button />
+				<Button />
+		  </div>
+		  
 	 </header>
   )
 }
